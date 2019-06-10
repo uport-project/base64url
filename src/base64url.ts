@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer'
 import padString from "./pad-string";
 
 function encode(input: string | Buffer, encoding: string = "utf8"): string {

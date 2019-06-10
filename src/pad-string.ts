@@ -1,3 +1,5 @@
+import { Buffer } from 'buffer'
+
 export default function padString(input: string): string {
     let segmentLength = 4;
     let stringLength = input.length;
